@@ -9,15 +9,15 @@
         <class>org.example.modelo.Alumno</class>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dbminiapp" />
-            <property name="javax.persistence.jdbc.user" value="jose" />
-            <property name="javax.persistence.jdbc.password" value="juajua72" />
+            <property name="javax.persistence.jdbc.user" value="miusuario" />
+            <property name="javax.persistence.jdbc.password" value="mipassword" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 
             <!-- Mostrar comando de Hibernate
             <property name="hibernate.show_sql" value="true" />
              -->
 
-            <!-- Cambiar el valor de value="create" a value="none" desp. de primer ejecucion-->
+            <!-- Cambiar el valor de value="create" a value="none" desp. de primer ejecucion -->
             <property name="javax.persistence.schema-generation.database.action" value="none"/>
         </properties>
     </persistence-unit>
