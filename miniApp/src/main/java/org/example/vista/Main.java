@@ -42,7 +42,6 @@ public class Main {
 
                     break;
                 case 3:
-                    System.out.println("\nFalta implementar Mostrar Alumnos...");
                     List<Alumno> listaAlumnos = controladora.listarAlumnos();
                     contador = 0;
                     for (Alumno a : listaAlumnos){
@@ -54,8 +53,6 @@ public class Main {
                     }
                     break;
                 case 4:
-                    //System.out.println("\nFalta implementar Editar Alumno...");
-
                     System.out.print("\nIngrese id de Alumno a editar: ");
                     id = datos.nextInt();
                     System.out.print("\nIngrese nombre de Alumno: ");
