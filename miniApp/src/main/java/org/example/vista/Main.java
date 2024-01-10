@@ -44,7 +44,7 @@ public class Main {
                 case 3:
                     System.out.println("\nFalta implementar Mostrar Alumnos...");
                     List<Alumno> listaAlumnos = controladora.listarAlumnos();
-                    contador =1;
+                    contador = 0;
                     for (Alumno a : listaAlumnos){
                         System.out.print(a + ";  ");
                         contador++;
